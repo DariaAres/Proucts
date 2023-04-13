@@ -1,0 +1,21 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sun 2023-04-09 02:46:23 +03; 8s ago
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 6782 (dockerd)
+      Tasks: 13
+     Memory: 25.5M
+     CGroup: /system.slice/docker.service
+             └─6782 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.370476908+03:00" level=info msg="[core] [Channel #4 SubChannel #5] Subchannel Connectivity change to READY" module=grpc
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.370491808+03:00" level=info msg="[core] [Channel #4] Channel Connectivity change to READY" module=grpc
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.393600326+03:00" level=info msg="Loading containers: start."
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.461710889+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.489003306+03:00" level=info msg="Loading containers: done."
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.496472555+03:00" level=info msg="Docker daemon" commit=59118bf graphdriver=overlay2 version=23.0.3
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.496569735+03:00" level=info msg="Daemon has completed initialization"
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.513769647+03:00" level=info msg="[core] [Server #7] Server created" module=grpc
+Apr 09 02:46:23 daria systemd[1]: Started Docker Application Container Engine.
+Apr 09 02:46:23 daria dockerd[6782]: time="2023-04-09T02:46:23.519038285+03:00" level=info msg="API listen on /run/docker.sock"

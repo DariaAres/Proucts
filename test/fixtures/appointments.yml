@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  appoinment_date: 2023-04-09 04:23:06
+  phisitian: one
+  patiant: one
+
+two:
+  appoinment_date: 2023-04-09 04:23:06
+  phisitian: two
+  patiant: two
